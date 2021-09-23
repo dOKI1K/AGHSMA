@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página Oficial de la Asociación Hotelera y Gastronómica de SMA " />
+    <link rel="icon" href="img/imgahg/ahg-icon.png" />
+    <script src="https://kit.fontawesome.com/ff1de4e06d.js" crossorigin="anonymous"></script>
+    <title>AHGSMA - Alojamiento y Gastronomía</title>
+</head>
+<body>
+
+    <header>
+        <div class="all-menu">
+            <nav class="menu">
+                <a href="index.html"><img class="logoahg" id="logoahg" src="img/imgahg/ahglogo.png" alt="LOGO AHGSMA" /></a>
+                <ul class="nav-menu">
+                    <li>
+                        <a class="btn" onclick="mostrarHome();">Home</a>
+                    </li>
+                    <li>
+                        <a class="btn" onclick="mostrarInfoAhgsma();">AHGSMA</a>
+                    </li>                    
+                    <li>
+                        <a class="btn">Blog</a>
+                    </li>                    
+                    <li class="asociados-3">
+                        <a class="btn">Asociados▾</a>
+                        <ul class="asociados-show">
+                            <li><a href="" class="btn">Alojamientos</a></li>
+                            <li><a href="" class="btn">Gastronómicos</a></li>
+                            <li><a href="" class="btn">Servicios Turísticos</a></li>
+                        </ul>
+                    </li>                    
+                    <li>
+                        <a href="https://disponibilidad.smandeshoteles.com.ar/" class="btn">Disponibilidad Alojamiento</a>
+                    </li>
+                    <li>
+                        <a class="btn" onclick="mostrarAsocPreviaje();">Previaje 2021</a>
+                    </li>
+                    <li>
+                        <a class="btn2">Protocolos</a>
+                    </li>
+                </ul>
+                <span class="responsive-menu">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <section>
+        <div>
+            <h1>San Martín de los Andes</h1>
+            <h2>Paraíso de la Patagonia</h2>
+        </div>
+        <div>
+            <div class="San-Martin-info">
+                <p class="btn3"></p><p class="btn5"></p><p class="btn4"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+
+    <aside>
+        <div class="top-aside">
+            <div class="top-aside__all">
+                <div class="logotipo2">
+                    <img src="img/imgahg/ahglogo2.png" alt="Logo AHGSMA 2">
+                </div>
+                <ul>
+                    <li class="ul-titulos"><h4>Institucional</h4></li>
+                    <li><a href="">Quienes Somos</a></li>
+                    <li><a href="">Beneficios</a></li>
+                    <li><a href="">Revista Promocional</a></li>
+                </ul>
+                <ul>
+                    <li class="ul-titulos"><h4>Asociados</h4></li>
+                    <li><a href="">Alojamientos</a></li>
+                    <li><a href="">Gastronomía</a></li>
+                    <li><a href="">Servicios Turísticos</a></li>
+                </ul>
+                <ul>
+                    <li class="ul-titulos"><h4>Contacto</h4></li>
+                    <li><a href="https://www.google.com/maps/place/Asociaci%C3%B3n+Hotelera+Gastron%C3%B3mica+de+San+Mart%C3%ADn+de+los+Andes+(AHGSMA)/@-40.1550049,-71.3456558,19z/data=!3m1!4b1!4m5!3m4!1s0x96110e798dbfda57:0x5d4e8f9df12742a2!8m2!3d-40.1550059!4d-71.3451086"><img src="img/icons/black-placeholder-variant.png" alt="Ubicación">Av. San Martín 1254 Loc. 3</a></li>
+                    <li><a><img src="img/icons/call.png" alt="Teléfono">+54 2972 427166/ 429434</a></li>
+                    <li><a href="mailto://informes@smandeshoteles.com.ar"><img src="img/icons/email.png" alt="Mail">informes@smandeshoteles.com.ar</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="bot-aside">
+            <div class="redes">
+                <a href="https://www.facebook.com/smandeshoteles" target="_blank"><img src="img/icons/facebook.png" alt="Facebook AHGSMA"></a>
+                <a href="https://www.instagram.com/asoc.hotelera.gastronomica.sma/" target="_blank"><img src="img/icons/instagram.png" alt="Instagram AHGSMA"></a>
+                <a href="https://www.youtube.com/channel/UCQip4gQWkRhBiTNRQhHphmA/featured" target="_blank"><img src="img/icons/youtube.png" alt="YT AHGSMA"></a>
+            </div>
+        </div>
+    </aside>
+
+
+    <footer>
+        <p>Copyright © <a href="https://github.com/dOKI1K?tab=repositories">Lahuen Millañanco</a>. Asociación Hotelera Gastronómica de San Martín de Los Andes.</p>
+    </footer>
+    
+</body>
+</html>
+
+<script type="text/javascript">
+    window.onload = mostrarHome();
+</script>
